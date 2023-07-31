@@ -1,0 +1,98 @@
+2023-07-28 08:08:17.148351: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-07-28 08:08:17.150118: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-07-28 08:08:17.186990: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-07-28 08:08:17.187368: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-07-28 08:08:18.495291: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-07-28 08:08:19.025965: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1960] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-07-28 08:08:28.158676: W tensorflow/tsl/platform/cloud/google_auth_provider.cc:184] All attempts to get a Google authentication bearer token failed, returning an empty token. Retrieving token from files failed with "NOT_FOUND: Could not locate the credentials file.". Retrieving token from GCE failed with "FAILED_PRECONDITION: Error executing an HTTP request: libcurl code 6 meaning 'Couldn't resolve host name', error details: Could not resolve host: metadata.google.internal".
+Generating splits...:   0%|          | 0/1 [00:00<?, ? splits/s]
+Generating train examples...: 0 examples [00:00, ? examples/s][A
+Generating train examples...: 1 examples [00:52, 52.01s/ examples][A
+Generating train examples...: 2 examples [01:49, 55.10s/ examples][A
+Generating train examples...: 3 examples [02:51, 58.15s/ examples][A
+Generating train examples...: 4 examples [03:47, 57.60s/ examples][A
+Generating train examples...: 5 examples [04:33, 53.38s/ examples][A
+Generating train examples...: 6 examples [05:20, 51.26s/ examples][A
+Generating train examples...: 7 examples [06:14, 51.98s/ examples][A
+Generating train examples...: 8 examples [07:03, 51.03s/ examples][A
+Generating train examples...: 9 examples [07:41, 47.14s/ examples][A
+Generating train examples...: 10 examples [08:25, 45.92s/ examples][A
+Generating train examples...: 11 examples [09:11, 46.15s/ examples][A
+Generating train examples...: 12 examples [10:00, 46.81s/ examples][A
+Generating train examples...: 13 examples [10:31, 42.13s/ examples][A
+Generating train examples...: 14 examples [11:21, 44.57s/ examples][A
+Generating train examples...: 15 examples [12:22, 49.36s/ examples][A
+Generating train examples...: 16 examples [13:04, 47.14s/ examples][A
+Generating train examples...: 17 examples [13:50, 46.89s/ examples][A
+Generating train examples...: 18 examples [14:36, 46.66s/ examples][A
+Generating train examples...: 19 examples [15:29, 48.64s/ examples][A
+Generating train examples...: 20 examples [16:34, 53.32s/ examples][A
+Generating train examples...: 21 examples [17:19, 50.87s/ examples][A
+Generating train examples...: 22 examples [18:06, 49.73s/ examples][A
+Generating train examples...: 23 examples [18:45, 46.47s/ examples][A
+Generating train examples...: 24 examples [19:19, 42.93s/ examples][A
+Generating train examples...: 25 examples [19:59, 42.06s/ examples][A
+Generating train examples...: 26 examples [20:48, 44.10s/ examples][A
+Generating train examples...: 27 examples [21:25, 41.78s/ examples][A
+Generating train examples...: 28 examples [22:09, 42.51s/ examples][A
+Generating train examples...: 29 examples [22:50, 42.20s/ examples][A
+Generating train examples...: 30 examples [23:33, 42.23s/ examples][A
+Generating train examples...: 31 examples [24:27, 45.99s/ examples][A
+Generating train examples...: 32 examples [25:15, 46.43s/ examples][A
+Generating train examples...: 33 examples [25:55, 44.62s/ examples][A
+Generating train examples...: 34 examples [26:51, 47.84s/ examples][A
+Generating train examples...: 35 examples [27:37, 47.34s/ examples][A
+Generating train examples...: 36 examples [28:28, 48.59s/ examples][A
+Generating train examples...: 37 examples [29:12, 47.16s/ examples][A
+Generating train examples...: 38 examples [30:01, 47.63s/ examples][A
+Generating train examples...: 39 examples [30:34, 43.44s/ examples][A
+Generating train examples...: 40 examples [31:08, 40.34s/ examples][A
+Generating train examples...: 41 examples [31:46, 39.86s/ examples][A
+Generating train examples...: 42 examples [32:25, 39.53s/ examples][A
+Generating train examples...: 43 examples [33:16, 42.86s/ examples][A
+Generating train examples...: 44 examples [34:10, 46.26s/ examples][A
+Generating train examples...: 45 examples [34:58, 46.82s/ examples][A
+Generating train examples...: 46 examples [35:39, 45.21s/ examples][A
+Generating train examples...: 47 examples [36:21, 44.23s/ examples][A
+Generating train examples...: 48 examples [37:14, 46.86s/ examples][A
+Generating train examples...: 49 examples [37:55, 45.05s/ examples][A
+Generating train examples...: 50 examples [38:37, 44.17s/ examples][A
+                                                                   [A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:   0%|          | 0/50 [00:00<?, ? examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:   2%|▏         | 1/50 [00:00<00:17,  2.82 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:   6%|▌         | 3/50 [00:01<00:19,  2.40 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  10%|█         | 5/50 [00:01<00:15,  2.92 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  12%|█▏        | 6/50 [00:02<00:22,  1.98 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  18%|█▊        | 9/50 [00:03<00:16,  2.49 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  20%|██        | 10/50 [00:04<00:17,  2.32 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  22%|██▏       | 11/50 [00:04<00:16,  2.33 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  24%|██▍       | 12/50 [00:05<00:21,  1.80 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  26%|██▌       | 13/50 [00:05<00:19,  1.92 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  32%|███▏      | 16/50 [00:07<00:15,  2.24 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  34%|███▍      | 17/50 [00:07<00:14,  2.27 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  36%|███▌      | 18/50 [00:07<00:13,  2.30 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  38%|███▊      | 19/50 [00:09<00:19,  1.60 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  40%|████      | 20/50 [00:09<00:17,  1.75 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  42%|████▏     | 21/50 [00:09<00:15,  1.92 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  44%|████▍     | 22/50 [00:10<00:16,  1.65 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  46%|████▌     | 23/50 [00:11<00:14,  1.92 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  50%|█████     | 25/50 [00:12<00:12,  2.05 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  52%|█████▏    | 26/50 [00:12<00:11,  2.05 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  54%|█████▍    | 27/50 [00:13<00:12,  1.87 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  56%|█████▌    | 28/50 [00:13<00:13,  1.65 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  62%|██████▏   | 31/50 [00:14<00:08,  2.24 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  64%|██████▍   | 32/50 [00:15<00:08,  2.19 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  66%|██████▌   | 33/50 [00:15<00:07,  2.20 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  68%|██████▊   | 34/50 [00:17<00:10,  1.55 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  74%|███████▍  | 37/50 [00:17<00:04,  2.96 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  76%|███████▌  | 38/50 [00:18<00:07,  1.71 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  80%|████████  | 40/50 [00:19<00:04,  2.19 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  82%|████████▏ | 41/50 [00:20<00:04,  1.87 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  86%|████████▌ | 43/50 [00:20<00:03,  2.29 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  88%|████████▊ | 44/50 [00:21<00:03,  1.90 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  92%|█████████▏| 46/50 [00:21<00:01,  2.45 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...:  94%|█████████▍| 47/50 [00:22<00:01,  1.98 examples/s][A
+Shuffling /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*...: 100%|██████████| 50/50 [00:23<00:00,  2.34 examples/s][A
+                                                                                                                                                                    [A                                                                Generating splits...:   0%|          | 0/1 [39:02<?, ? splits/s]Generating splits...: 100%|██████████| 1/1 [39:02<00:00, 2342.69s/ splits]                                                                          

@@ -1,0 +1,63 @@
+INFO[build.py]: Loading dataset  from path: /scratch/cluster/yifengz/rlds_dataset_builder/buds_dataset/buds_dataset_dataset_builder.py
+INFO[dataset_info.py]: Load dataset info from /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0
+INFO[resolver.py]: Using /tmp/tfhub_modules to cache modules.
+INFO[load.py]: Fingerprint not found. Saved model loading will continue.
+INFO[load.py]: Fingerprint not found. Saved model loading will continue.
+INFO[build.py]: download_and_prepare for dataset buds_dataset/1.0.0...
+INFO[native_type_compatibility.py]: Using Any for unsupported type: typing.Sequence[~T]
+INFO[bigquery.py]: No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+INFO[dataset_builder.py]: Generating dataset buds_dataset (/u/yifengz/tensorflow_datasets/buds_dataset/1.0.0)
+Downloading and preparing dataset Unknown size (download: Unknown size, generated: Unknown size, total: Unknown size) to /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0...
+INFO[writer.py]: Done writing /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0.incompleteJRPDQ7/buds_dataset-train.tfrecord*. Number of examples: 50 (shards: [3, 3, 3, 3, 4, 3, 3, 3, 3, 3, 3, 4, 3, 3, 3, 3])
+Dataset buds_dataset downloaded and prepared to /u/yifengz/tensorflow_datasets/buds_dataset/1.0.0. Subsequent calls will reuse this data.
+INFO[build.py]: Dataset generation complete...
+
+tfds.core.DatasetInfo(
+    name='buds_dataset',
+    full_name='buds_dataset/1.0.0',
+    description="""
+    This is a real robot dataset from the paper BUDS. It is a franka robot operating osc controller at 20 Hz, and it has both workspace and wrist camera observations.
+    """,
+    homepage='https://www.tensorflow.org/datasets/catalog/buds_dataset',
+    data_path='/u/yifengz/tensorflow_datasets/buds_dataset/1.0.0',
+    file_format=tfrecord,
+    download_size=Unknown size,
+    dataset_size=1.49 GiB,
+    features=FeaturesDict({
+        'episode_metadata': FeaturesDict({
+            'file_path': Text(shape=(), dtype=string),
+        }),
+        'steps': Dataset({
+            'action': Tensor(shape=(7,), dtype=float32),
+            'discount': Scalar(shape=(), dtype=float32),
+            'is_first': Scalar(shape=(), dtype=bool),
+            'is_last': Scalar(shape=(), dtype=bool),
+            'is_terminal': Scalar(shape=(), dtype=bool),
+            'language_embedding': Tensor(shape=(512,), dtype=float32),
+            'language_instruction': Text(shape=(), dtype=string),
+            'observation': FeaturesDict({
+                'image': Image(shape=(128, 128, 3), dtype=uint8),
+                'state': Tensor(shape=(24,), dtype=float32),
+                'wrist_image': Image(shape=(128, 128, 3), dtype=uint8),
+            }),
+            'reward': Scalar(shape=(), dtype=float32),
+        }),
+    }),
+    supervised_keys=None,
+    disable_shuffling=False,
+    splits={
+        'train': <SplitInfo num_examples=50, num_shards=16>,
+    },
+    citation="""// TODO(example_dataset): BibTeX citation
+    @article{zhu2022bottom,
+      title={Bottom-Up Skill Discovery From Unsegmented Demonstrations for Long-Horizon Robot Manipulation},
+      author={Zhu, Yifeng and Stone, Peter and Zhu, Yuke},
+      journal={IEEE Robotics and Automation Letters},
+      volume={7},
+      number={2},
+      pages={4126--4133},
+      year={2022},
+      publisher={IEEE}
+    }""",
+)
+

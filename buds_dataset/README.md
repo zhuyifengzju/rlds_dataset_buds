@@ -1,0 +1,1 @@
+This is a real robot dataset from the paper BUDS. It is a franka robot operating osc controller at 20 Hz, and it has both workspace and wrist camera observations.
